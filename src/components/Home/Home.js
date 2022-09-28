@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Activities from '../Activities/Activities';
 import Break from '../Break/Break';
+import Details from '../Details/Details';
 import Header from '../Header/Header';
 import Selfinfo from '../Selfinfo/Selfinfo';
 import './Home.css';
@@ -8,8 +9,6 @@ import './Home.css';
 const Home = () => {
     const [isSelected,setIsSelected] = useState([]);
     const [list,setList] = useState([]);
-    console.log(isSelected);
-    console.log(list);
     return (
         <div>
             <div className='home'>
@@ -20,6 +19,7 @@ const Home = () => {
                 <div className='info-container'>
                     <Selfinfo></Selfinfo>
                     <Break isSelected={isSelected} setIsSelected={setIsSelected}></Break>
+                    <Details list={list}></Details>
                 </div>
             </div>
         </div>
