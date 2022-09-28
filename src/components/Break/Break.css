@@ -1,0 +1,23 @@
+.break{
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-break{
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.btn-break:hover{
+    color: white;
+    background-color: skyblue;
+}

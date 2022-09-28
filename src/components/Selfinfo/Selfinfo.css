@@ -1,0 +1,56 @@
+.self-info{
+    padding: 10px;
+}
+.info{
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+}
+.personal{
+    display: flex;
+    align-items: center;
+}
+.personal h4{
+    margin: 0;
+    padding-left: 25px;
+}
+.personal img{
+    width: 30%;
+    border-radius: 2px;
+}
+.address{
+    display: flex;
+    color: gray;
+    font-size: 15px;
+    align-items: center;
+    padding-left: 10px;
+}
+.address p{
+    margin: 0;
+}
+.icon{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.info-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info-first p{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.info-first small{
+    color: gray;
+    font-weight: 400;
+}
+.info-second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+}
+.info-second p{
+    margin-top: 0;
+}
