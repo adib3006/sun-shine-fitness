@@ -1,0 +1,44 @@
+[
+    {
+      "id": "633488930b304036cbecc940",
+      "name": "Morning Walk",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Feconomictimes.indiatimes.com%2Fmagazines%2Fpanache%2Fmorning-walk-can-give-you-a-good-nights-sleep%2Farticleshow%2F47566048.cms&psig=AOvVaw3evpWJR0YFxFcgwmyoMQGf&ust=1664474011541000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPDyroqHuPoCFQAAAAAdAAAAABAD",
+      "age": "10-60",
+      "time": 20
+    },
+    {
+      "id": "63348893f22eb6f8d71db128",
+      "name": "Hiking",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fsports%2Fhiking&psig=AOvVaw2Kzxr3CZJTGpstd-s9B6rW&ust=1664474113863000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJjn7LaHuPoCFQAAAAAdAAAAABAD",
+      "age": "15-25",
+      "time": 25
+    },
+    {
+      "id": "633488936608773482709a56",
+      "name": "Cycling",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.siroko.com%2Fblog%2Fc%2Fhow-cycling-changes-your-body-internal-and-external-effects%2F&psig=AOvVaw3USW2ATAFf3iJnNwVUhs6g&ust=1664474205711000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLD-tOGHuPoCFQAAAAAdAAAAABAD",
+      "age": "10-35",
+      "time": 35
+    },
+    {
+      "id": "633488937a4da7982dc6338e",
+      "name": "Swimming",
+      "picture": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.thejakartapost.com%2Flife%2F2017%2F10%2F20%2Fgood-reasons-to-add-swimming-to-your-exercise-habit.html&psig=AOvVaw02IHJkcp5B2XAqfzULyF_I&ust=1664474289650000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIDy44yIuPoCFQAAAAAdAAAAABAD",
+      "age": "15-50",
+      "time": 40
+    },
+    {
+      "id": "633488939d4198ea5581a3c2",
+      "name": "Jogging",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fjogging&psig=AOvVaw0yHxezp4T5f4b8mMgSLJv1&ust=1664474328081000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNCfrZuIuPoCFQAAAAAdAAAAABAD",
+      "age": "10-40",
+      "time": 35
+    },
+    {
+      "id": "63348893825f65256d1846cc",
+      "name": "Skipping Rope",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftimesofindia.indiatimes.com%2Flife-style%2Fhealth-fitness%2Ffitness%2F5-reasons-you-should-jump-rope-every-day%2Fphotostory%2F71956707.cms&psig=AOvVaw0-tPCmiaPGmf7jTLlTHpdE&ust=1664474365330000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNDBs7GIuPoCFQAAAAAdAAAAABAD",
+      "age": "15-35",
+      "time": 40
+    }
+  ]

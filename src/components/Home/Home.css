@@ -1,0 +1,10 @@
+.home{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.activity-container{
+    background-color: rgb(144, 255, 218);
+}
+.info-container{
+    background-color: rgb(255, 209, 216);
+}
