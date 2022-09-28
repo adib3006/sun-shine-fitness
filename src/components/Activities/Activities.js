@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Activity from '../Activity/Activity';
+import './Activities.css';
 
 const Activities = () => {
     const [activities,setActivities] = useState([]);
@@ -9,8 +11,13 @@ const Activities = () => {
     },[])
     console.log(activities)
     return (
-        <div className='activities-container'>
-            <h2>total activities: {activities.length}</h2>
+        <div className='display'>
+            <h2 className='title'>Pick Best activities for today from {activities.length} activities.</h2>
+            <div className='activities-container'>
+                {
+                    activities.map(activity => <Activity activity={activity} key={activity.id}></Activity>)
+                }
+            </div>
         </div>
     );
 };

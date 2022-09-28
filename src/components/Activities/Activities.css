@@ -1,6 +1,13 @@
+.display{
+    margin-left: 50px;
+}
 .activities-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
     margin: 50px;
+    margin-top: 0px;
+}
+.title{
+    color: rgb(124, 124, 124);
 }
