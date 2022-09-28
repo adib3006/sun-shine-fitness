@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header/Header';
 import './Home.css';
 
 const Home = () => {
@@ -6,10 +7,11 @@ const Home = () => {
         <div>
             <div className='home'>
                 <div className='activity-container'>
-                    <h1>Hello</h1>
+                    <Header></Header>
+                    <h1>activities</h1>
                 </div>
                 <div className='info-container'>
-                    <h1>world</h1>
+                    <h1>info</h1>
                 </div>
             </div>
         </div>
