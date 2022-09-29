@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Activities from '../Activities/Activities';
 import Break from '../Break/Break';
 import Details from '../Details/Details';
@@ -9,6 +9,13 @@ import './Home.css';
 const Home = () => {
     const [isSelected,setIsSelected] = useState([]);
     const [list,setList] = useState([]);
+    const [time,setTime] = useState(0);
+    useEffect(()=>{
+        const breakTime = JSON.parse(localStorage.getItem('break-time'));
+        setTime(breakTime);
+    },[isSelected]);
+    console.log(isSelected);
+    console.log(time);
     return (
         <div>
             <div className='home'>
@@ -18,8 +25,8 @@ const Home = () => {
                 </div>
                 <div className='info-container'>
                     <Selfinfo></Selfinfo>
-                    <Break isSelected={isSelected} setIsSelected={setIsSelected}></Break>
-                    <Details list={list}></Details>
+                    <Break setIsSelected={setIsSelected}></Break>
+                    <Details list={list} time={time}></Details>
                 </div>
             </div>
         </div>

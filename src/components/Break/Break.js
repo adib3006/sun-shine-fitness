@@ -1,12 +1,13 @@
 import React from 'react';
 import './Break.css';
 
-const Break = ({isSelected,setIsSelected}) => {
+const Break = ({setIsSelected}) => {
     
 
     const handleSelected = (e) => {
-        console.log(e.target.value);
-        setIsSelected(e.target.value);
+        const breakTime = e.target.value;
+        localStorage.setItem('break-time',JSON.stringify(breakTime));
+        setIsSelected([breakTime]);
     }
     return (
         <div className='break'>
