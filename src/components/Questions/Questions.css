@@ -1,0 +1,15 @@
+.box{
+    color: rgb(61, 61, 61);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+    margin: 30px;
+    padding: 30px;
+}
+.q-title{
+    color: rgb(61, 61, 61);
+    text-align: center;
+}
+.hr{
+    width: 60%;
+}

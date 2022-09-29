@@ -3,6 +3,7 @@ import Activities from '../Activities/Activities';
 import Break from '../Break/Break';
 import Details from '../Details/Details';
 import Header from '../Header/Header';
+import Question from '../Questions/Question';
 import Selfinfo from '../Selfinfo/Selfinfo';
 import './Home.css';
 
@@ -22,11 +23,12 @@ const Home = () => {
                 <div className='activity-container'>
                     <Header></Header>
                     <Activities list={list} setList={setList}></Activities>
+                    <Question></Question>
                 </div>
                 <div className='info-container'>
                     <Selfinfo></Selfinfo>
                     <Break setIsSelected={setIsSelected}></Break>
-                    <Details list={list} time={time}></Details>
+                    <Details list={list} time={time} setList={setList}></Details>
                 </div>
             </div>
         </div>

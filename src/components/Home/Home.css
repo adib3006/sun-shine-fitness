@@ -4,8 +4,20 @@
 }
 .activity-container{
     background-color: rgb(255, 255, 255);
-    border: 1px solid gray;
 }
 .info-container{
-    border: 1px solid gray;
+    background-color: aliceblue;
+    padding-top: 30px;
+}
+
+@media screen and (max-width:688px){
+    .home{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width:689px) and (max-width: 992px){
+    .home{
+        grid-template-columns: 2fr 1fr;
+    }
 }

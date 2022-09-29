@@ -12,7 +12,7 @@ const Selfinfo = () => {
                     <div>
                         <h4>Mirza Adnan</h4>
                         <div className='address'>
-                            <FontAwesomeIcon className='icon' icon={faLocationDot}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='icon2' icon={faLocationDot}></FontAwesomeIcon>
                             <p>Dhaka, Bangladesh</p>
                         </div>
                     </div>

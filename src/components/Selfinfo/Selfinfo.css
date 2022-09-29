@@ -4,6 +4,7 @@
 .info{
     border-radius: 5px;
     box-shadow: 4px 4px 8px gray;
+    background-color: white;
 }
 .personal{
     display: flex;
@@ -27,7 +28,7 @@
 .address p{
     margin: 0;
 }
-.icon{
+.icon2{
     font-size: 15px;
     margin-right: 5px;
 }

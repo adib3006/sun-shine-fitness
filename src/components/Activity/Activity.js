@@ -5,7 +5,7 @@ const Activity = ({list,setList,activity}) => {
     const {name,picture,age,time,} = activity;
     const [toggle,setToggle] = useState(true);
     const handleClick = () => {
-        setToggle(current => !current);
+        setToggle(current => false);
         const info = {time};
         if(list){
             setList([...list,info]);
@@ -22,7 +22,7 @@ const Activity = ({list,setList,activity}) => {
             <img src={picture} alt="" />
             <p>Age limit: {age} years</p>
             <p>Duration: {time} min</p>
-            <button onClick={handleClick} className={toggle ? 'btn-start' : 'btn-selected'} disabled={!toggle}>
+            <button onClick={handleClick} className={toggle ? 'btn-start' : 'btn-selected'}>
                 {toggle ? "Start":"Selected"}
             </button>
         </div>

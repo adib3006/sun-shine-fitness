@@ -1,0 +1,34 @@
+.exercise{
+    padding: 10px;
+}
+.exercise h2{
+    color: rgb(61, 61, 61);
+}
+.exercise p{
+    color: rgb(61, 61, 61);
+    font-weight: 500;
+    font-size: 18px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+    padding: 0px 30px;
+}
+.btn-complete{
+    width: 100%;
+    background-color: rgb(84, 154, 182);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+}
+.btn-complete:hover{
+    color: white;
+    background-color: rgb(68, 158, 124);
+}

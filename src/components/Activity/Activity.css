@@ -6,6 +6,9 @@
     box-shadow: 4px 4px 8px gray;
     padding: 4px;
 }
+.activity h2{
+    color: rgb(61, 61, 61);
+}
 img{
     width: 100%;
     height: 50%;
@@ -33,4 +36,7 @@ img{
     margin-bottom: 10px;
     font-size: 20px;
     padding: 5px;
+}
+.btn-selected:hover{
+    background-color: rgb(46, 109, 85);
 }
