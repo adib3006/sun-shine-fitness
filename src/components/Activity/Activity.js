@@ -20,9 +20,9 @@ const Activity = ({list,setList,activity}) => {
         <div className='activity'>
             <h2>{name}</h2>
             <img src={picture} alt="" />
-            <p>Type: {type}</p>
-            <p>Dificulty: {dificulty}</p>
-            <p>Duration: {time} min</p>
+            <p><span className='activity-category'>Type: </span>{type}</p>
+            <p><span className='activity-category'>Dificulty: </span>{dificulty}</p>
+            <p><span className='activity-category'>Duration: </span>{time} min</p>
             <button onClick={handleClick} className={toggle ? 'btn-start' : 'btn-selected'}>
                 {toggle ? "Start":"Selected"}
             </button>  

@@ -19,7 +19,7 @@
       "id": "633488936608773482709a56",
       "name": "Cycling",
       "picture": "https://www.siroko.com/blog/c/app/uploads/2021/07/efectos-positivos_f766ef96-0811-452d-bbf8-ec38d244637a.jpg",
-      "type": "High intensity leg muscle exercise.",
+      "type": "High intensity muscle exercise.",
       "dificulty": "Medium",
       "time": 35
     },
@@ -46,5 +46,29 @@
       "type": "High intensity cardio.",
       "dificulty": "Hard",
       "time": 40
+    },
+    {
+      "id": "633488939d4198ea5581a3f2",
+      "name": "Bicycle Crunches",
+      "picture": "https://thumbs.dreamstime.com/b/man-making-bicycle-crunch-exercise-home-sport-fitness-healthy-lifestyle-concept-mat-flexing-abs-150158608.jpg",
+      "type": "High intensity cardio.",
+      "dificulty": "Hard",
+      "time": 20
+    },
+    {
+      "id": "633488939d4198ea5581a3z2",
+      "name": "Mountain Climbers",
+      "picture": "https://i.insider.com/61ddba714ede320018b6ffb8?width=700",
+      "type": "High intensity interval training.",
+      "dificulty": "Medium",
+      "time": 10
+    },
+    {
+      "id": "633488939d4198ea5581a3c0",
+      "name": "Push-Ups",
+      "picture": "https://cdn.mos.cms.futurecdn.net/cnPgSLG9sZppVdEei9MjUD-1200-80.jpg",
+      "type": "High intensity muscle training.",
+      "dificulty": "Easy",
+      "time": 20
     }
   ]

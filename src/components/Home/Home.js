@@ -16,20 +16,25 @@ const Home = () => {
         const breakTime = JSON.parse(localStorage.getItem('break-time'));
         setTime(breakTime);
     },[isSelected]);
-    // console.log(isSelected);
-    // console.log(time);
     return (
         <div>
             <div className='home'>
                 <div className='activity-container'>
                     <Header></Header>
-                    <Activities list={list} setList={setList}></Activities>
+                    <Activities 
+                    list={list} 
+                    setList={setList}
+                    ></Activities>
                     <Question></Question>
                 </div>
                 <div className='info-container'>
                     <Selfinfo></Selfinfo>
                     <Break setIsSelected={setIsSelected}></Break>
-                    <Details list={list} time={time} setList={setList}></Details>
+                    <Details 
+                    list={list} 
+                    time={time} 
+                    setList={setList}
+                     ></Details>
                 </div>
             </div>
         </div>
