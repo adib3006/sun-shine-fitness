@@ -16,8 +16,8 @@ const Home = () => {
         const breakTime = JSON.parse(localStorage.getItem('break-time'));
         setTime(breakTime);
     },[isSelected]);
-    console.log(isSelected);
-    console.log(time);
+    // console.log(isSelected);
+    // console.log(time);
     return (
         <div>
             <div className='home'>

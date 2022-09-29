@@ -21,7 +21,7 @@ const Details = ({list,time,setList}) => {
             </div>
             <div className='time'>
                 <p>Break Time:</p>
-                <p>{time} seconds.</p>
+                <p>{time} minutes.</p>
             </div>
             <button onClick={showToast} className='btn-complete'>Finish</button>
         </div>
