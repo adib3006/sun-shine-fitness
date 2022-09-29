@@ -11,6 +11,7 @@ const Home = () => {
     const [isSelected,setIsSelected] = useState([]);
     const [list,setList] = useState([]);
     const [time,setTime] = useState(0);
+
     useEffect(()=>{
         const breakTime = JSON.parse(localStorage.getItem('break-time'));
         setTime(breakTime);

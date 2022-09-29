@@ -3,42 +3,42 @@
       "id": "633488930b304036cbecc940",
       "name": "Morning Walk",
       "picture": "https://img.etimg.com/thumb/msid-47566048,width-650,imgsize-469631,,resizemode-4,quality-100/.jpg",
-      "age": "10-60",
+      "dificulty": "Easy",
       "time": 20
     },
     {
       "id": "63348893f22eb6f8d71db128",
       "name": "Hiking",
       "picture": "https://cdn.britannica.com/94/125794-050-FB09B3F4/Hikers-Gore-Range-Mountains-Denver.jpg?w=400&h=300&c=crop",
-      "age": "15-25",
+      "dificulty": "Hard",
       "time": 25
     },
     {
       "id": "633488936608773482709a56",
       "name": "Cycling",
       "picture": "https://www.siroko.com/blog/c/app/uploads/2021/07/efectos-positivos_f766ef96-0811-452d-bbf8-ec38d244637a.jpg",
-      "age": "10-35",
+      "dificulty": "Medium",
       "time": 35
     },
     {
       "id": "633488937a4da7982dc6338e",
       "name": "Swimming",
       "picture": "https://i0.hippopx.com/photos/890/738/373/swimmer-swimming-woman-competition-preview.jpg",
-      "age": "15-50",
+      "dificulty": "Medium",
       "time": 40
     },
     {
       "id": "633488939d4198ea5581a3c2",
       "name": "Jogging",
       "picture": "https://images.unsplash.com/photo-1603455778956-d71832eafa4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8am9nZ2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-      "age": "10-40",
+      "dificulty": "Easy",
       "time": 35
     },
     {
       "id": "63348893825f65256d1846cc",
       "name": "Skipping Rope",
       "picture": "https://static.toiimg.com/thumb/71956822.cms?width=680&height=512&imgsize=836678",
-      "age": "15-35",
+      "dificulty": "Hard",
       "time": 40
     }
   ]

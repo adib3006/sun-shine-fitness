@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Activity.css';
 
 const Activity = ({list,setList,activity}) => {
-    const {name,picture,age,time,} = activity;
+    const {name,picture,dificulty,time,} = activity;
     const [toggle,setToggle] = useState(true);
     const handleClick = () => {
         setToggle(current => false);
@@ -20,11 +20,11 @@ const Activity = ({list,setList,activity}) => {
         <div className='activity'>
             <h2>{name}</h2>
             <img src={picture} alt="" />
-            <p>Age limit: {age} years</p>
+            <p>Dificulty: {dificulty}</p>
             <p>Duration: {time} min</p>
             <button onClick={handleClick} className={toggle ? 'btn-start' : 'btn-selected'}>
                 {toggle ? "Start":"Selected"}
-            </button>
+            </button>  
         </div>
     );
 };
